@@ -1,0 +1,27 @@
+.new-note-button{
+    width: 100px;
+    height: 100px;
+    border-radius: 90%;
+    border: 2px var(--main-outline-color) solid;
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .1s ease-out;
+
+}
+
+.new-note-button:hover{
+    transform: scale(.9);
+    border: 2px var(--main-text-color) solid;
+    color: var(--main-text-color);
+}
+
+.new-note-button h1{
+    font-size: 5rem;
+    color: var(--main-outline-color);
+    line-height: 0;
+}
+
+

@@ -1,0 +1,1 @@
+## classic notes app, root css variables, night mode, only add function for now, context not yet included

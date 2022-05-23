@@ -1,0 +1,25 @@
+
+.App{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-bg-color);
+  font-family:'Courier New', Courier, monospace;
+  transition: .2s ease-out;
+  overflow: hidden;
+
+}
+
+::selection{
+  background: var(--main-text-color);
+  color: var(--main-bg-color);
+}
+
+::-webkit-scrollbar{
+  width: 0;
+}
+

@@ -1,0 +1,35 @@
+.Note{
+    width: 95%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    color: var(--main-text-color);
+    border-radius: 10px;
+    border: 1px var(--main-outline-color) solid;
+    margin-top: 1vh;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .1s ease-out;
+    flex-shrink: 0;
+}
+
+.Note:hover{
+    border: 1px var(--main-text-color) solid;
+}
+
+.Content{
+    width: 80%;
+    margin-left: 2%;
+
+}
+
+.Title{
+    line-height: 0;
+}
+
+.Date{
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-right: 2%;
+}
+
